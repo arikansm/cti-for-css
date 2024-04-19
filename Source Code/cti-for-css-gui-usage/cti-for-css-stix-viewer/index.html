@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>STIX Viewer</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="application.css" />
+    <script src="require.js" data-main="application"></script>
+  </head>
+
+  <body>
+
+    <div id="top-header-bar">
+      <div style="display: flex;">
+        <div style="width: 60%;">
+          <h1>
+            <span id="header">cti-for-css-stix-viewer</span><span id="chosen-files"></span><br/><span><button id="reset-button">Reset</button></span>
+          </h1>
+        </div>
+        <div style="width: 40%;">
+          <br/>
+          <a target="_blank" href="https://github.com/oasis-open/cti-stix-visualization/">
+            The codebase has been forked from OASIS Open's cti-stix-visualization tool
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <hr/>
+
+    <div id="uploader">
+      <p>Visualize from STIX file</p>
+      <input type="button" id="input-file-button-for-custom-text" value="Continue with File" onclick="document.getElementById('files').click();" />
+      <input type="file" id="files" name="files" style="display:none;"/><br><br><br>
+      <p>or Visualize from STIX Json data</p>
+      <textarea id="paste-area-stix-json" name="pasted" placeholder="{...}"></textarea><br>
+      <button id="paste-parser">Continue with Json</button>
+    </div>
+
+    <div id="canvas-container" class="hidden">
+      <div style="display: flex;">
+        <div style="width: 60%;">
+          <div id="canvas-wrapper">
+            <div id="canvas"></div>
+          </div>
+          <div id="legend" class="sidebar">
+            <table id="legend-content">
+              <caption><h2>Legend</h2></caption>
+            </table>
+          </div>
+        </div>
+        <div style="width: 40%;">
+          <hr/>
+          <div id="selected" class="sidebar" style="width:95%">
+            <h2>Selected Node</h2>
+            <div id="selection"></div>
+          </div>
+          <hr/>
+          <div id="connections" class="sidebar">
+            <h2>Linked Nodes</h2>
+            <h3>Incoming Edge(s):</h3>
+            <div id="connections-incoming"></div>
+            <h3>Outgoing Edge(s):</h3>
+            <div id="connections-outgoing"></div>
+          </div>
+          <hr/>
+        </div>
+    </div>
+    </div>
+  </body>
+</html>

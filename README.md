@@ -1,8 +1,8 @@
+# Automated Cyber Threat Intelligence for Closed Source Software Vulnerabilities
+
 <div align="center">
   <img style="width: 100%;" src="banner.png" alt="Örnek Resim" width="300">
 </div>
-
-# Automated Cyber Threat Intelligence for Closed Source Software Vulnerabilities
 
 `cti-for-css` is a cutting-edge system designed to automate the production of cyber threat intelligence (CTI) for closed-source software vulnerabilities. Utilizing deep learning algorithms and an innovative function-as-sentence approach, this tool simplifies the detection and classification of software vulnerabilities.
 

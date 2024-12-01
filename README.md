@@ -7,7 +7,7 @@
 `cti-for-css` is a cutting-edge system designed to automate the production of cyber threat intelligence (CTI) for closed-source software vulnerabilities. Utilizing deep learning algorithms and an innovative function-as-sentence approach, this tool simplifies the detection and classification of software vulnerabilities.
 
 ## Key Features
-- **Deep Learning Integration**: Supports MLP, OneDNN (One-Dimensional CNN), LSTM, and Bi-LSTM for vulnerability detection.
+- **Deep Learning Integration**: Supports MLP, OneDNN, LSTM, and Bi-LSTM for vulnerability detection.
 - **High Performance**: Achieved an F1 score of 82.4% and AUC score of 93.0% on the NDSS18 dataset (whole).
 - **Fast Processing**: Classifies each vulnerability in under 0.32 seconds on average.
 - **Comprehensive Dataset**: Can be trained using the SOSP and NDSS18 datasets, covering CWE-119 (buffer errors) and CWE-399 (resource management errors), or with other datasets formatted similarly to these.
@@ -47,3 +47,8 @@ Clone the repository and install dependencies:
 git clone https://github.com/arikansm/cti-for-css.git
 cd cti-for-css
 pip install -r requirements.txt
+```
+
+## Notes
+- In our study(s), 'OneDNN' was used as an abbreviation for 'One-Dimensional CNN'. Please note that this usage is specific to our study and should not be confused with other meanings of 'OneDNN', such as the Open Neural Network Deep Learning Library.
+- For detailed information or any question, please feel free to contact me: arikan.sm@gmail.com

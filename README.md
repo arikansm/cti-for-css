@@ -40,8 +40,6 @@ This project is based on a doctoral thesis and a research published in the **Int
 ## Installation
 Clone the repository and install dependencies:
 ```bash
-git clone [https://github.com/yourusername/cti-for-css.git](https://github.com/arikansm/cti-for-css.git)
+git clone (https://github.com/arikansm/cti-for-css.git)
 cd cti-for-css
 pip install -r requirements.txt
-
-

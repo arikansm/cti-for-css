@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="banner.png" alt="Örnek Resim" width="300">
+</div>
+
 # Automated Cyber Threat Intelligence for Closed Source Software
 
 `cti-for-css` is a cutting-edge system designed to automate the production of cyber threat intelligence (CTI) for closed-source software vulnerabilities. Utilizing deep learning algorithms and an innovative function-as-sentence approach, this tool simplifies the detection and classification of software vulnerabilities.
@@ -40,6 +44,6 @@ This project is based on a doctoral thesis and a research published in the **Int
 ## Installation
 Clone the repository and install dependencies:
 ```bash
-git clone (https://github.com/arikansm/cti-for-css.git)
+git clone https://github.com/arikansm/cti-for-css.git
 cd cti-for-css
 pip install -r requirements.txt

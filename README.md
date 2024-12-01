@@ -8,7 +8,7 @@
 
 ## Key Features
 - **Deep Learning Integration**: Supports MLP, OneDNN (One-Dimensional CNN), LSTM, and Bi-LSTM for vulnerability detection.
-- **High Performance**: Achieved an F1 score of 82.4% and AUC score of 93.0%.
+- **High Performance**: Achieved an F1 score of 82.4% and AUC score of 93.0% on the NDSS18 dataset (whole).
 - **Fast Processing**: Classifies each vulnerability in under 0.32 seconds on average.
 - **Comprehensive Dataset**: Can be trained using the SOSP and NDSS18 datasets, covering CWE-119 (buffer errors) and CWE-399 (resource management errors), or with other datasets formatted similarly to these.
 

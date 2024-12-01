@@ -2,17 +2,16 @@
 
 `cti-for-css` is a cutting-edge system designed to automate the production of cyber threat intelligence (CTI) for closed-source software vulnerabilities. Utilizing deep learning algorithms and an innovative function-as-sentence approach, this tool simplifies the detection and classification of software vulnerabilities.
 
-## Publication
+## Key Features
+- **Deep Learning Integration**: Supports MLP, OneDNN, LSTM, and Bi-LSTM for vulnerability detection.
+- **High Performance**: Achieved an F1 score of 82.4% and AUC score of 93.0%.
+- **Fast Processing**: Classifies each vulnerability in under 0.32 seconds on average.
+- **Comprehensive Dataset**: Can be trained using the SOSP and NDSS18 datasets, covering CWE-119 (buffer errors) and CWE-399 (resource management errors), or with other datasets formatted similarly to these.
 
-This project is based on a doctoral thesis and a research published in the **International Journal of Information Security**:
+## Function-as-Sentence Approach
+The system introduces a novel method to represent binary data, reducing pre-processing workload and enhancing detection accuracy.
 
-**Automating shareable cyber threat intelligence production for closed source software vulnerabilities: a deep learning-based detection system**  
-[Read the publication here](https://link.springer.com/article/10.1007/s10207-024-00882-4)
-
-**Deep Learning Based Cyber Threat Intelligence For Closed Source Software (Doctoral Thesis)**  
-[Not yet published](https://tez.yok.gov.tr/UlusalTezMerkezi/)
-
-## Related Tools
+## Complementary Tools
 
 We have made available the source code of `cti-for-css` along with three complementary tools:
 
@@ -28,14 +27,15 @@ We have made available the source code of `cti-for-css` along with three complem
    Visualises the produced cyber threat intelligence for easier interpretation.  
    [View Repository](https://github.com/arikansm/cti-for-css/tree/main/Source%20Code/cti-for-css-gui-usage/cti-for-css-stix-viewer)
 
-## Key Features
-- **Deep Learning Integration**: Supports MLP, OneDNN, LSTM, and Bi-LSTM for vulnerability detection.
-- **High Performance**: Achieved an F1 score of 82.4% and AUC score of 93.0%.
-- **Fast Processing**: Classifies each vulnerability in under 0.32 seconds on average.
-- **Comprehensive Dataset**: Can be trained using the SOSP and NDSS18 datasets, covering CWE-119 (buffer errors) and CWE-399 (resource management errors), or with other datasets formatted similarly to these.
+## Publication
 
-## Function-as-Sentence Approach
-The system introduces a novel method to represent binary data, reducing pre-processing workload and enhancing detection accuracy.
+This project is based on a doctoral thesis and a research published in the **International Journal of Information Security**:
+
+**Automating shareable cyber threat intelligence production for closed source software vulnerabilities: a deep learning-based detection system**  
+[Read the publication here](https://link.springer.com/article/10.1007/s10207-024-00882-4)
+
+**Deep Learning Based Cyber Threat Intelligence For Closed Source Software (Doctoral Thesis)**  
+[Not yet published](https://tez.yok.gov.tr/UlusalTezMerkezi/)
 
 ## Installation
 Clone the repository and install dependencies:
@@ -43,3 +43,5 @@ Clone the repository and install dependencies:
 git clone [https://github.com/yourusername/cti-for-css.git](https://github.com/arikansm/cti-for-css.git)
 cd cti-for-css
 pip install -r requirements.txt
+
+

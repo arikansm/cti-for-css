@@ -31,10 +31,10 @@ We have made available the source code of `cti-for-css` along with three complem
 
 This project is based on a doctoral thesis and a research published in the **International Journal of Information Security**:
 
-**Automating shareable cyber threat intelligence production for closed source software vulnerabilities: a deep learning-based detection system**  
+**(Article) Automating shareable cyber threat intelligence production for closed source software vulnerabilities: a deep learning-based detection system**  
 [Read the publication here](https://link.springer.com/article/10.1007/s10207-024-00882-4)
 
-**Deep Learning Based Cyber Threat Intelligence For Closed Source Software (Doctoral Thesis)**  
+**(Doctoral Thesis) Cyber Threat Intelligence with Deep Learning Based Vulnerability Detection System for Closed Source Software**  
 [Not yet published](https://tez.yok.gov.tr/UlusalTezMerkezi/)
 
 ## Installation

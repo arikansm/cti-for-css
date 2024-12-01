@@ -50,5 +50,5 @@ pip install -r requirements.txt
 ```
 
 ## Notes
-- In our study(s), 'OneDNN' was used as an abbreviation for 'One-Dimensional CNN'. Please note that this usage is specific to our study and should not be confused with other meanings of 'OneDNN', such as the Open Neural Network Deep Learning Library.
+- In our study(s), 'OneDNN' was used as an abbreviation for 'One-Dimensional CNN'. Please note that this usage is specific to our study and should not be confused with other meanings of 'OneDNN'.
 - For detailed information or any question, please feel free to contact me: arikan.sm@gmail.com

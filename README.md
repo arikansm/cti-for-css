@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner.png" alt="Örnek Resim" width="300">
+  <img style="width: 100%;" src="banner.png" alt="Örnek Resim" width="300">
 </div>
 
 # Automated Cyber Threat Intelligence for Closed Source Software

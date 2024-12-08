@@ -110,10 +110,13 @@ class Builder:
             function_info_parsed = [function_info for function_info in vulnerable_function.split(" ")
                                     if any(char.isdigit() for char in function_info)]
 
-            search_term = f"{function_info_parsed[1]} - {function_info_parsed[2]}"
+            search_term = f"{function_info_parsed[-2]} - {function_info_parsed[-1]}"
             for function_lines in c_file_content:
                 if search_term in function_lines:
                     functions[search_term] = function_lines.replace(search_term + "\n", "")
+
+            if not search_term in functions:
+                functions[search_term] = "The code could not be decompiled to the representation of C programming language"
 
         return functions
 
